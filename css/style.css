@@ -21,6 +21,10 @@
   color: #f7c08a;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .lead {
   font-size: 20px;
 }
@@ -74,6 +78,12 @@
   font-weight: 900 !important;
   font-size: 85%;
 }
+
+/* Margin */
+.mt-n1 {
+  margin-top: -0.5rem;
+}
+
 /* Padding */
 .py-1 {
   padding: 10px 0;
@@ -103,6 +113,10 @@ a {
   text-decoration: none;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3 {
@@ -115,6 +129,11 @@ p {
 }
 
 /* Navbar */
+
+.logo a:hover {
+  color: #f7c08a !important;
+}
+
 #navbar {
   background: #333;
   color: #fff;
