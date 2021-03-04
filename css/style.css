@@ -186,6 +186,10 @@ p {
   margin-bottom: 10px;
 }
 
+.box h3 {
+  padding-bottom: 0;
+}
+
 /* Footer */
 #main-footer {
   text-align: center;
