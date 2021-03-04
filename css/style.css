@@ -84,6 +84,10 @@
   margin-top: -0.5rem;
 }
 
+.mt-n2 {
+  margin-top: -1rem;
+}
+
 /* Padding */
 .py-1 {
   padding: 10px 0;
