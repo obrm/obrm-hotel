@@ -68,6 +68,11 @@
   text-align: center;
 }
 
+/* Testimonials */
+#testimonials {
+  height: 100%;
+}
+
 /* Contact */
 #contact-info .box {
   border-bottom: #444 dotted 1px;
