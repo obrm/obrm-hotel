@@ -71,6 +71,7 @@
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 .text-brand {
@@ -133,6 +134,13 @@ p {
 }
 
 /* Navbar */
+.nav-mobile {
+  display: none;
+}
+
+.nav-large {
+  display: block;
+}
 
 .logo a:hover {
   color: #f7c08a !important;
@@ -201,7 +209,7 @@ p {
 
 /* Home Info */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -216,7 +224,7 @@ p {
   width: 50%;
   height: 100%;
   text-align: center;
-  padding: 50px 30px;
+  padding: 96px 30px;
   overflow: hidden;
 }
 
@@ -264,7 +272,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 640px;
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding: 100px 0;
 }

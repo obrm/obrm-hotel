@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (max-height: 500px)" href="css/landscape.css">
   <title>ברוכים הבאים למלון HBT</title>
 </head>
 
@@ -18,10 +20,15 @@
     <nav id="navbar">
       <div class="container">
         <h1 class="logo"><a href="index.html">HBT</a></h1>
-        <ul>
+        <ul class="nav-large">
           <li><a href="contact.html">צור קשר</a></li>
           <li><a href="about.html">אודות</a></li>
           <li><a class="current" href="index.html">בית</a></li>
+        </ul>
+        <ul class="nav-mobile">
+          <li><a class="current" href="index.html">בית</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
         </ul>
       </div>
     </nav>

@@ -1,0 +1,23 @@
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding: 30px;
+}
+
+#about-info .info-right {
+  margin-top: 0;
+}
+
+#about-info .info-left img {
+  margin-top: 0;
+}
+
+.landscape-hide {
+  display: none;
+}
+
+#home-info .info-content {
+  padding: 60px 30px;
+}
